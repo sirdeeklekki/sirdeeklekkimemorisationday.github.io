@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f2f2f2;
+    font-size: 18px;
+    font-family: Arial black,sans-serif;
+    font-weight: lighter;
+}
+
+#container {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#new {
+    font-family: Swis721 Blk BT, Arial Rounded MT Bold, sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    background: white;   
+    text-align: center;
+    padding: 5px 0 5px;
+    margin: 7px 0 7px;
+    color: cornflowerblue;
+    border-bottom: solid 3px red;
+}
+
+section#head {
+    
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+small {
+    font-size: 14px;
+    font-family:Georgia, Times, serif;
+    letter-spacing: -0.5px;
+}
+
+p {
+    padding: 10px; 
+    margin-bottom: auto;
+    margin-top: 10px;
+}
+
+strong {
+    color: red;   
+}
+
+hr { margin-top: 10px }
+
+/* 
+#quran {
+    height: 200px;
+    width: 200px;
+}
+
+#hammayusuf {
+    height: 200px;
+    width: 200px;
+}
+
+#Abu usama{
+    height: 264px;
+    width: 256px;
+}
+
+#me {
+    height: 200px;
+    width: 200px;   
+}
+
+#mlm idrees{
+    height: 200px;
+    width: 200px;
+}
+
+#usama {
+    height: 200px;
+    width: 200px;
+}
+*/
+
+img {
+    display: inline-block;
+    justify-content: center;
+    
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    
+    margin: 10px 10px 10px 10px;
+}
+
+.image {
+    text-align: center;  
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+}
+
+.social a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 50%;
+}
+
+.social a:hover {
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.social a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.social a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+
+.bottom{
+    color: white;
+    background: black;
+}
+
+.lekki {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+footer {
+    background: #111;  
+    text-align: center;
+    font-weight: lighter;
+    font-family: Adobe Song Std L, serif;
+}
